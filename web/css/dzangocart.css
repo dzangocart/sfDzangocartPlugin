@@ -1,0 +1,88 @@
+.dzangocart_minified {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ------ Table ------------------------------------------------------------- */
+table.dzangocart thead th, table.dzangocart td {
+  padding: 0.5em 0.2em;
+  vertical-align: top;
+  white-space: normal;
+} 
+
+table.dzangocart thead th {
+  background-color: #F1F6E0;
+  vertical-align: bottom;
+  text-align: center; 
+  cursor: pointer;
+}
+
+table.dzangocart thead th.check { width: 3em; }
+table.dzangocart thead th.date { width: 10em; }
+table.dzangocart thead th.order_id { width: 10em; }
+table.dzangocart thead th.gross { width: 8em; }
+table.dzangocart thead th.tax { width: 6em; }
+table.dzangocart thead th.net { width: 8em; }
+table.dzangocart thead th.paid { width: 3em; }
+table.dzangocart thead th.amount_paid { width: 8em; }
+table.dzangocart thead th.demo { width: 3em; }
+table.dzangocart thead th.affiliate { width: 10em; }
+table.dzangocart thead th.actions { width: 6em; }
+
+table.dzangocart td { padding-right: 3px; }
+
+table.dzangocart a, table.dzangocart a:link, table.dzangocart a:visited { text-decoration: none; }
+
+
+table.dzangocart tr.credit td { color: #00529B;  background-color: #BDE5F8; }
+table.dzangocart tr.unpaid td { color: #D8000C; background-color: #FFBABA;}
+table.dzangocart tr.cancelled td { background-color: #ddd; }
+
+table.dzangocart td.check { text-align: center; }
+table.dzangocart td.amount { text-align: right; padding-right: 5px; }
+table.dzangocart td.center { text-align: center; }
+
+table.dzangocart td.actions .details .hide { display: none; }
+table.dzangocart td.actions .showing .show { display: none; }
+table.dzangocart td.actions .showing .hide { display: inline; }
+
+#dz_user_data { display: none; }
+
+/* ------ Simplemodal cancel popup window ----------------------------------- */
+#dzangocart-cancel-overlay {
+	background-color: #000;
+  cursor: wait;
+}
+
+#dzangocart-cancel-container {
+	background: #fff;
+  width: 90%;
+  min-height: 210px;
+  margin: 5em auto 0 auto;
+  max-width: 640px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding: 1em;
+  text-align: left;
+}
+
+#dzangocart-cancel-container .warning {  
+  border: 1px solid #9F6000;
+  border-width: 1px 0;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+	color: #9F6000;
+  background: #FEEFB3 url('../images/Attention.png') 10px 5px no-repeat;
+}
+
+a.dp-choose-date {
+  float: none;
+  display: inline-block;
+}
+
+div#dp-popup  { z-index: 1003; }
+

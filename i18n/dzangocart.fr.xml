@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="actions">
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="affiliate">
+        <source>Affiliate</source>
+        <target>Affilié</target>
+      </trans-unit>
+      <trans-unit id="all">
+        <source>All</source>
+        <target>Tout</target>
+      </trans-unit>
+      <trans-unit id="amount_paid">
+        <source>Amount paid</source>
+        <target>Montant réglé</target>
+      </trans-unit>
+      <trans-unit id="bank">
+        <source>Bank</source>
+        <target>Banque</target>
+      </trans-unit>
+      <trans-unit id="bank_response_code">
+        <source>Bank response code</source>
+        <target>Bank response code</target>
+      </trans-unit>
+      <trans-unit id="cancel">
+        <source>Cancel</source>
+        <target>Annuler</target>
+      </trans-unit>
+      <trans-unit id="card_number">
+        <source>Card number</source>
+        <target>N° de carte</target>
+      </trans-unit>
+      <trans-unit id="cheque_number">
+        <source>Cheque number</source>
+        <target>Chèque numéro</target>
+      </trans-unit>
+      <trans-unit id="choose_action">
+        <source>Choose an action</source>
+        <target>Choisir une action</target>
+      </trans-unit>
+      <trans-unit id="confirm">
+        <source>Confirm</source>
+        <target>Confirmer</target>
+      </trans-unit>
+      <trans-unit id="currency">
+        <source>Currency</source>
+        <target>Devise</target>
+      </trans-unit>
+      <trans-unit id="customer">
+        <source>Customer</source>
+        <target>Client</target>
+      </trans-unit>
+      <trans-unit id="cvv_response_code">
+        <source>CVV response code</source>
+        <target>CVV response code</target>
+      </trans-unit>
+      <trans-unit id="date">
+        <source>Date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="from">
+        <source>From</source>
+        <target>Du</target>
+      </trans-unit>
+      <trans-unit id="go">
+        <source>go</source>
+        <target>ok</target>
+      </trans-unit>
+      <trans-unit id="gross">
+        <source>Gross</source>
+        <target>TTC</target>
+      </trans-unit>
+      <trans-unit id="include_test_orders">
+        <source>Include test orders</source>
+        <target>Inclure les commandes de démonstration</target>
+      </trans-unit>
+      <trans-unit id="include_test_purchases">
+        <source>Include test purchases</source>
+        <target>Inclure les achats de démonstration</target>
+      </trans-unit>
+      <trans-unit id="include_test_transactions">
+        <source>Include test transactions</source>
+        <target>Inclure les transactions de démonstration</target>
+      </trans-unit>
+      <trans-unit id="invoice">
+        <source>Print invoice</source>
+        <target>Imprimer la facture</target>
+      </trans-unit>
+      <trans-unit id="net">
+        <source>Net</source>
+        <target>HT</target>
+      </trans-unit>
+      <trans-unit id="no">
+        <source>No</source>
+        <target>N˚</target>
+      </trans-unit>
+      <trans-unit id="order_id">
+        <source>Order id</source>
+        <target>Commande n˚</target>
+      </trans-unit>
+      <trans-unit id="orders">
+        <source>Orders</source>
+        <target>Commandes</target>
+      </trans-unit>
+      <trans-unit id="paid">
+        <source>Paid</source>
+        <target>Réglé</target>
+      </trans-unit>
+      <trans-unit id="payment_means">
+        <source>Payment means</source>
+        <target>Payment means</target>
+      </trans-unit>
+      <trans-unit id="product_service">
+        <source>Product/Service</source>
+        <target>Produit/Service</target>
+      </trans-unit>
+      <trans-unit id="provider_transactions">
+        <source>%provider% transactions</source>
+        <target>%provider% transactions</target>
+      </trans-unit>
+      <trans-unit id="purchases">
+        <source>Purchases</source>
+        <target>Achats</target>
+      </trans-unit>
+      <trans-unit id="response_code">
+        <source>Response code</source>
+        <target>Response code</target>
+      </trans-unit>
+      <trans-unit id="tax">
+        <source>Tax</source>
+        <target>TVA</target>
+      </trans-unit>
+      <trans-unit id="test">
+        <source>Test</source>
+        <target>Test</target>
+      </trans-unit>
+      <trans-unit id="to">
+        <source>To</source>
+        <target>Au</target>
+      </trans-unit>
+      <trans-unit id="transaction_id">
+        <source>Transaction id</source>
+        <target>Transaction id</target>
+      </trans-unit>
+      <trans-unit id="verified">
+        <source>Verified</source>
+        <target>Verified</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

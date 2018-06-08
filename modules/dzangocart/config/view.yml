@@ -1,0 +1,115 @@
+ordersSuccess:
+  stylesheets:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_css'); ?>datePicker.css
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_css'); ?>dataTables.css
+    - /sfDzangocartPlugin/css/dzangocart.css
+  javascripts:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date_<?php echo sfContext::getInstance()->getUser()->getCulture(); ?>.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>jquery.datePicker.min.js
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_js'); ?>jquery.dataTables.min.js
+    - <?php if (!sfConfig::get('app_dzangocart_datatables_url_plugins')) { 
+              echo '-' . sfConfig::get('app_dzangocart_datatables_url_js');
+            }
+            else {
+              echo sfConfig::get('app_dzangocart_datatables_url_js');
+            } ?>jquery.dataTables.ext.min.js
+    - '<?php echo sfConfig::get('app_dzangocart_simplemodal_path'); ?>'
+    - /sfDzangocartPlugin/js/dzangocart.js
+
+purchasesSuccess: 
+  stylesheets:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_css'); ?>datePicker.css
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_css'); ?>dataTables.css
+    - /sfDzangocartPlugin/css/dzangocart.css
+    - /sfDzangocartPlugin/css/refund-form.css
+    - /sfDzangocartPlugin/css/purchases.css
+  javascripts:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date_<?php echo sfContext::getInstance()->getUser()->getCulture(); ?>.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>jquery.datePicker.min.js
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_js'); ?>jquery.dataTables.min.js
+    - <?php if (!sfConfig::get('app_dzangocart_datatables_url_plugins')) {
+              echo '-' . sfConfig::get('app_dzangocart_datatables_url_js');
+            }
+            else {
+              echo sfConfig::get('app_dzangocart_datatables_url_js');
+            } ?>jquery.dataTables.ext.min.js
+    - '<?php echo sfConfig::get('app_dzangocart_simplemodal_path'); ?>'
+    - /sfDzangocartPlugin/js/dzangocart.js
+  
+poSuccess:
+  stylesheets:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_css'); ?>datePicker.css
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_css'); ?>dataTables.css
+    - /sfDzangocartPlugin/css/dzangocart.css
+    - /sfDzangocartPlugin/css/transactions.css
+  javascripts:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date_<?php echo sfContext::getInstance()->getUser()->getCulture(); ?>.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>jquery.datePicker.min.js
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_js'); ?>jquery.dataTables.min.js
+    - <?php if (!sfConfig::get('app_dzangocart_datatables_url_plugins')) {
+              echo '-' . sfConfig::get('app_dzangocart_datatables_url_js');
+            }
+            else {
+              echo sfConfig::get('app_dzangocart_datatables_url_js');
+            } ?>jquery.dataTables.ext.min.js
+    - /sfDzangocartPlugin/js/dzangocart.js
+
+sipsSuccess:
+  stylesheets:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_css'); ?>datePicker.css
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_css'); ?>dataTables.css
+    - /sfDzangocartPlugin/css/dzangocart.css
+    - /sfDzangocartPlugin/css/transactions.css
+  javascripts:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date_<?php echo sfContext::getInstance()->getUser()->getCulture(); ?>.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>jquery.datePicker.min.js
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_js'); ?>jquery.dataTables.min.js
+    - <?php if (!sfConfig::get('app_dzangocart_datatables_url_plugins')) {
+              echo '-' . sfConfig::get('app_dzangocart_datatables_url_js');
+            }
+            else {
+              echo sfConfig::get('app_dzangocart_datatables_url_js');
+            } ?>jquery.dataTables.ext.min.js
+    - /sfDzangocartPlugin/js/dzangocart.js
+
+paypalExpressSuccess:
+  stylesheets:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_css'); ?>datePicker.css
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_css'); ?>dataTables.css
+    - /sfDzangocartPlugin/css/dzangocart.css
+    - /sfDzangocartPlugin/css/transactions.css
+  javascripts:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date_<?php echo sfContext::getInstance()->getUser()->getCulture(); ?>.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>jquery.datePicker.min.js
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_js'); ?>jquery.dataTables.min.js
+    - <?php if (!sfConfig::get('app_dzangocart_datatables_url_plugins')) {
+              echo '-' . sfConfig::get('app_dzangocart_datatables_url_js');
+            }
+            else {
+              echo sfConfig::get('app_dzangocart_datatables_url_js');
+            } ?>jquery.dataTables.ext.min.js
+    - /sfDzangocartPlugin/js/dzangocart.js
+
+paypalDirectSuccess:
+  stylesheets:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_css'); ?>datePicker.css
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_css'); ?>dataTables.css
+    - /sfDzangocartPlugin/css/dzangocart.css
+    - /sfDzangocartPlugin/css/transactions.css
+  javascripts:
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>date_<?php echo sfContext::getInstance()->getUser()->getCulture(); ?>.js
+    - <?php echo sfConfig::get('app_dzangocart_datepicker_url_js'); ?>jquery.datePicker.min.js
+    - <?php echo sfConfig::get('app_dzangocart_datatables_url_js'); ?>jquery.dataTables.min.js
+    - <?php if (!sfConfig::get('app_dzangocart_datatables_url_plugins')) {
+              echo '-' . sfConfig::get('app_dzangocart_datatables_url_js');
+            }
+            else {
+              echo sfConfig::get('app_dzangocart_datatables_url_js');
+            } ?>jquery.dataTables.ext.min.js
+    - /sfDzangocartPlugin/js/dzangocart.js

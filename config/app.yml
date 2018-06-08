@@ -1,0 +1,18 @@
+all:
+  dzangocart:
+#    url: http://mydomain.dzangocart.com
+#    css: http://mydomain.dzangocart.com/
+#    add_to_cart: Add to cart
+#    key: '123456789123456789'
+    order_class:              DzangocartOrder
+    simplemodal_path:         /sfDzangocartPlugin/js/plugins/simplemodal/jquery.simplemodal.1.4.1.min.js
+    datatables_url_js:        /cpDataTablesPlugin/js/
+    datatables_url_plugins:   true
+    datatables_url_css:       /cpDataTablesPlugin/css/
+    datepicker_url_js:        /cpDatePickerPlugin/js/
+    datepicker_url_css:       /cpDatePickerPlugin/css/
+    datepicker_date_format:   dd/mm/yyyy
+    date_format:              d/m/Y
+
+  datatables:
+    language_file:  /cpPropelAdminGeneratorPlugin/dataTable/lang/%culture%.txt

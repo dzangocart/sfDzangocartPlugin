@@ -1,0 +1,20 @@
+table.list thead th { cursor: pointer; }
+table.list td { padding-right: 3px; }
+
+.transactions table.list th, .transactions table.list td {
+	padding: 0.5em 0.2em;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.transactions table.list thead th.amount { text-align: center; }
+
+.transactions table.list thead th.check,
+.transactions table.list tbody td.check { text-align: center; }
+
+.transactions table.list th {
+  background-color: #F1F6E0;
+  vertical-align: bottom;
+}
+
+.transactions td a { text-decoration: none; }

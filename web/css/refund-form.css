@@ -1,0 +1,98 @@
+.refund-form {
+  background-color: white;
+  padding: 50px 25px;
+}
+
+.refund-form fieldset {
+  position: relative;
+}
+
+.refund-form label {
+  display: inline;
+  float: left;
+  font-weight: normal;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  text-align: right;
+  width: 40%;
+}
+
+.refund-form input[type="text"],
+.refund-form select {
+  font-size: 110%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 3px 5px;
+}
+
+.refund-form input[type="text"] {
+  width: 52%;
+}
+
+.refund-form select {
+  width: 55%;
+}
+
+.refund-form button, .refund-form a.button {
+    float: right;
+    font-size: 100%;
+    line-height: 17px;
+    padding: 10px 15px 10px 45px;
+    text-align: left;
+    width: auto;
+}
+
+.refund-form button, .refund-form a.button {
+  background-color: #F5F5F5;
+  border-color: #EEEEEE #DEDEDE #DEDEDE #EEEEEE;
+  border-right: 1px solid #DEDEDE;
+  border-style: solid;
+  border-width: 1px;
+  color: #565656;
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-family: "Lucida Grande",Tahoma,Arial,Verdana,sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  line-height: 17px;
+  margin: 0.7em 1.5em 0.7em 0;
+  padding: 10px 35px;
+  text-decoration: none;
+  text-align: left;
+  width: auto;
+}
+
+.refund-form button.positive, .refund-form a.positive {
+  color: #529214;
+}
+
+.refund-form button.negative, .refund-form a.negative {
+  color: #D12F19;
+}
+
+.refund-form a.positive:hover,
+.refund-form button.positive:hover {
+  background-color: #E6EFC2;
+  border: 1px solid #C6D880;
+  color: #529214;
+}
+
+.refund-form a.positive:active {
+  background-color: #529214;
+  border: 1px solid #529214;
+  color: #FFF;
+}
+
+.refund-form a.negative:hover,
+.refund-form button.negative:hover {
+  background-color: #FBE3E4;
+  border: 1px solid #FBC2C4;
+  color: #D12F19;
+}
+
+.refund-form a.negative:active {
+  background-color: #D12F19;
+  border: 1px solid #D12F19;
+  color: #FFF;
+}

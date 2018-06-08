@@ -1,0 +1,13 @@
+.purchases tr.missing {
+  background-color: #FFBABA;
+}
+
+
+.refund-form-container {
+  display: none;
+}
+
+.simplemodal-data {
+  height: 100%;
+  background-color: white;
+}
