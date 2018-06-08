@@ -1,5 +1,5 @@
 {
-    "name": " dzangocart/sf-dzangocart-plugin",
+    "name": "dzangocart/sf-dzangocart-plugin",
     "type": "symfony1-plugin",
     "description": "",
     "keywords": ["symfony", "plugin"],
