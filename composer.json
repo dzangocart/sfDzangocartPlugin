@@ -1,0 +1,17 @@
+{
+    "name": " dzangocart/sf-dzangocart-plugin",
+    "type": "symfony1-plugin",
+    "description": "",
+    "keywords": ["symfony", "plugin"],
+    "license": "MIT",
+    "homepage": "https://github.com/dzangocart/sfDzangocartPlugin",
+    "require": {
+        "composer/installers": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
+
