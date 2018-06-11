@@ -6,7 +6,8 @@
     "license": "MIT",
     "homepage": "https://github.com/dzangocart/sfDzangocartPlugin",
     "require": {
-        "composer/installers": "*"
+        "composer/installers": "*",
+	"dzangocart/lib": "^1.0"
     },
     "extra": {
         "branch-alias": {
