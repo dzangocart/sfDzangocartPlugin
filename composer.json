@@ -5,12 +5,6 @@
     "keywords": ["symfony", "plugin"],
     "license": "MIT",
     "homepage": "https://github.com/dzangocart/sfDzangocartPlugin",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/dzangocart/lib.git"
-        }
-    ],
     "require": {
         "composer/installers": "*",
 	"dzangocart/lib": "^1.0"
